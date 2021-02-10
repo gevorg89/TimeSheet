@@ -24,10 +24,11 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContent {
+        /*setContent {
             //Greeting(name = "test")
             ListItemsSection()
-        }
+        }*/
+        setContentView(R.layout.main_activity)
     }
 
     @Composable
